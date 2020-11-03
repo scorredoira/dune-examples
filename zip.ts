@@ -1,6 +1,4 @@
-import "native";
-
-function main() {
+export function main() {
     let fs = io.newMemFS()
     let w = fs.openForWrite("foo.zip")
     let zw = zip.newWriter(w)

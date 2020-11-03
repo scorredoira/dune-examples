@@ -1,6 +1,4 @@
-import "native";
-
-function main() {
+export function main() {
     let db = sql.open("sqlite3", ":memory:")
 
     let r = db.exec(`CREATE TABLE IF NOT EXISTS people (

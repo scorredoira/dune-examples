@@ -1,6 +1,4 @@
-import "native";
-
-function main() {
+export function main() {
     let s = http.newServer();
     s.address = ":8080";
     s.handler = handler;

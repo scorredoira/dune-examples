@@ -1,6 +1,4 @@
-import "native";
-
-function main() {
+export function main() {
     let c = sync.newChannel();
 
     go(() => {

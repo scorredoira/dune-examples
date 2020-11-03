@@ -1,6 +1,4 @@
-import "native";
-
-function main() {
+export function main() {
     let p = bytecode.compileStr(`
         function sum(a, b) {  
             return a + b

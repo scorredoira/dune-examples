@@ -1,7 +1,5 @@
 
-import "native";
-
-function main() {
+export function main() {
     let q = sql.newSelect()
     q.addColumns("id")
     q.from("foo AS bar")

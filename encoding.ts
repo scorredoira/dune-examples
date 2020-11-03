@@ -1,6 +1,4 @@
-import "native";
-
-function main() {
+export function main() {
     let buf = io.newBuffer()
     let w = encoding.newEncoderWindows1252().writer(buf)
     w.write("áüñ")

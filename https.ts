@@ -1,6 +1,4 @@
-import "native";
-
-function main() {
+export function main() {
     // tls with self signed certificate
     let conf = tls.newConfig(true)
     let c = tls.generateCert()

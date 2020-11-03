@@ -1,6 +1,4 @@
-import "native";
-
-function main() {
+export function main() {
     let db = sql.open("mysql", "test:123@unix(/var/run/mysqld/mysqld.sock)/")
 
     db.exec("CREATE DATABASE IF NOT EXISTS deleteme")

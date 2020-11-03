@@ -1,6 +1,4 @@
-import "native";
-
-function main() {
+export function main() {
     let msg = smtp.newMessage();
     msg.from = "xxxx";
     msg.fromName = "Test"
